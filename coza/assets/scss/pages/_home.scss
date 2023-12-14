@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: auto;
+
+    .icon {
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+    }
+}
+
+#home {
+    width: 100%;
+    height: 700px;
+    background-image: url(/assets/img/slide-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    margin-bottom: 30px;
+
+    .container {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+
+        .hometext {
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            position: absolute;
+            top: 400px;
+            gap: 30px;
+
+            .homebutton {
+                background-color: #717FE0;
+                border: none;
+                color: white;
+                padding: 8px;
+                border-radius: 50px;
+                font-size: 25px;
+            }
+        }
+
+    }
+}
+
+#customers {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+    .block1 {
+        border: 1px solid;
+        position: relative;
+        margin-bottom: 30px;
+
+        .block1text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: absolute;
+            top: 15px;
+            left: 5px;
+        }
+
+        .imgage1 {
+            max-width: 100%;
+        }
+    }
+}
+
+
+// @media screen and (min-width: 500px) {
+//     header {
+//         .container {
+//             .navbar {
+//                 .container-fluid {
+//                     .collapse {
+//                         .icon {
+//                             display: none;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+// @media screen and (max-widht: 940px) {
+//     header {
+//         .container {
+//             .navbar {
+//                 .container-fluid {
+//                     .collapse {
+//                         .icon {
+//                             display: none;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+#productsection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .box{
+        .btnaddcard{
+            border: none;
+            background-color: #717FE0;
+            padding: 8px;
+            border-radius: 50px;
+        }
+        // border: 1px solid;
+        padding: 20px;
+    //  margin: 30px;
+    //  overflow: hidden;
+
+    }
+    .productimage{
+        max-width: 100%;
+    }
+}
